@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Turing machine</title>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="marking.js"></script>
+  <script src="turingClass.js"></script>
+
+  <link href='style.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+  <header>
+    <center><h1>
+      Turing machine
+    </h1> </center>
+  </header>
+  <main>
+
+    <center>
+
+    <div id="createConteiner">
+      <table>
+        <tr>
+          <td>Row <input id="tapeStr" /></td>
+        </tr>
+        <tr>
+          <td><hr /></td>
+        </tr>
+        <tr>
+          <td>
+            <label class="container">
+      			    <input class="checkmark" id="new" type="checkbox" value="0" onchange='isRandom()'>
+            		<span class="checkmark">&nbsp&nbsp Random row &nbsp&nbsp</span>
+            	</label>
+            </td>
+        </tr>
+        <tr>
+          <td>Length <input id="len"></td>
+        </tr>
+      </table>
+
+      <br />
+      <br />
+      <input type="button" class="but" value="Создать" onclick="generateTape();">
+      <br />
+      <br />
+    </div>
+
+    <div id="content">
+
+    </div>
+
+  </center>
+
+
+  </main>
+  <nav>
+
+  </nav>
+
+</body>
+</html>

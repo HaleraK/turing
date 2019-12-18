@@ -1,0 +1,206 @@
+:root {
+  --bg: #ddd5d5;
+  --text: #330000;
+
+  --bg2: #e0b485;;
+  --el: #d18c47;
+}
+
+html, body {
+
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: var(--bg);
+
+}
+
+main {
+  background: var(--bg);
+  color: var(--text);
+}
+header {
+  background: var(--bg);
+  color: var(--text);
+}
+
+
+table {
+  border-color: var(--el);
+  border-width:  20px;
+  border-style:  outset;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align:middle;
+
+  table-layout: auto;
+  background: var(--el);
+  border:transparent;
+
+  height: 25px;
+
+  font-weight: bold;
+
+  padding: 5px;
+}
+
+.noTable {
+  border-color:  var(--bg);
+  background: var(--bg);
+  background-color: var(--bg);
+  padding: 20px;
+}
+
+input {
+  border-color: var(--el);
+  color: var(--text);
+  text-align: center;
+  border-radius: 10px;
+  background: var(--bg2);
+  border:transparent;
+  height: 25px;
+  width: 50px;
+
+}
+
+#tapeStr {
+  width: 200px;
+
+}
+
+.but {
+  border: 0px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 5px solid var(--el);
+  background: var(--el);
+  height: 40px;
+  width: 170px;
+  font-weight: bold;
+  vertical-align:middle;
+}
+
+hr {
+  border: 1px solid var(--text);
+}
+
+div {
+  color: var(--text);
+  font-weight: bold;
+}
+
+td {
+	border-radius:10px ;
+	border-style:  outset;
+	border: 4px solid var(--el);
+}
+
+.element {
+  background: var(--bg2);
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+}
+
+.selectedElem {
+  background: var(--text);
+  color: var(--el);
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+}
+
+header {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  left: 0;
+  top: 50px;
+}
+
+body {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.container {
+  background:  var(--el);
+  color: var(--text);
+}
+
+main {
+
+	padding-top: 40px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+
+	width: 90%;
+	margin-right: 0;
+	float: left;
+}
+
+.new {
+	background:var(--bg);
+}
+
+.container {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 3px;
+  padding:0px;
+}
+
+.container input {
+
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  background-color: var(--bg2);
+  border-color: var(--bg2);
+  border-radius: 10px;
+  border-width: 30px;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: var(--text);
+  border-color: var(--text);
+  border-radius: 10px;
+  border-width: 30px;
+  color: var(--el);
+}
+
+.container2 {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 3px;
+  padding:0px;
+}
+
+.container2 input {
+
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.checkmark2 {
+  background-color: var(--el);
+  border-color: var(--el);
+  border-radius: 10px;
+  border-width: 30px;
+}
+
+.container2 input:checked ~ .checkmark2 {
+  background-color: var(--text);
+  border-color: var(--text);
+  border-radius: 10px;
+  border-width: 30px;
+  color: var(--el);
+}
